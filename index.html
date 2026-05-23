@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunshine Nutrition | Hoover, AL</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brandBg: '#FAFAFA',       /* Bright, clean background */
+                        brandSurface: '#FFFFFF',  /* Crisp white cards */
+                        citrusOrange: '#F2994A',  /* Bright energetic orange */
+                        citrusPink: '#EB5757',    /* Vibrant pink accent */
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-brandBg text-slate-800 font-sans">
+
+    <header class="sticky top-0 z-50 border-b border-slate-200 bg-white/80 backdrop-blur-md">
+        <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <span class="text-xl font-black tracking-tight bg-gradient-to-r from-citrusOrange to-citrusPink bg-clip-text text-transparent">
+                    SUNSHINE NUTRITION
+                </span>
+                <span class="text-[10px] uppercase font-bold tracking-widest border border-slate-300 px-1.5 py-0.5 rounded text-slate-500">
+                    Hoover, AL
+                </span>
+            </div>
+            <a href="https://www.facebook.com/sunshinenutritionhoover" target="_blank" class="text-xs uppercase tracking-widest font-bold bg-slate-900 text-white px-5 py-3 rounded-full hover:bg-citrusOrange transition-all">
+                Order Ahead
+            </a>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-6 py-16 md:py-24 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div class="space-y-6">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-50 border border-orange-200">
+                <span class="text-xs font-semibold text-citrusOrange uppercase tracking-wider font-bold">South Shades Crest Rd</span>
+            </div>
+            <h1 class="text-5xl font-black tracking-tight leading-tight text-slate-900">
+                Premium fuel for <br>
+                <span class="bg-gradient-to-r from-citrusOrange to-citrusPink bg-clip-text text-transparent">
+                    high-energy lives.
+                </span>
+            </h1>
+            <p class="text-slate-600 font-light leading-relaxed">
+                Ditch the artificial crash. Step into Hoover’s favorite health hangout for vibrant Loaded Teas, high-protein meal replacement shakes, and targeted nutrition built to help you crush your daily goals.
+            </p>
+            <div class="flex gap-4">
+                <a href="#menu" class="px-6 py-3 rounded-xl bg-gradient-to-r from-citrusOrange to-citrusPink text-white font-bold text-sm shadow-lg shadow-orange-500/20">Explore Flavors</a>
+                <a href="#visit" class="px-6 py-3 rounded-xl bg-white border border-slate-200 text-slate-700 font-bold text-sm hover:bg-slate-50 transition-colors">Hours & Location</a>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-2 gap-4">
+            <div class="bg-brandSurface p-6 rounded-2xl border border-slate-100 shadow-sm">
+                <span class="text-2xl">⚡</span>
+                <h3 class="font-bold text-slate-900 mt-2">Loaded Teas</h3>
+                <p class="text-xs text-slate-500 mt-1">Zero sugar, packed with crisp clean energy.</p>
+            </div>
+            <div class="bg-brandSurface p-6 rounded-2xl border border-slate-100 shadow-sm">
+                <span class="text-2xl">💪</span>
+                <h3 class="font-bold text-slate-900 mt-2">24g Protein</h3>
+                <p class="text-xs text-slate-500 mt-1">Creamy, delicious shakes under 250 calories.</p>
+            </div>
+        </div>
+    </main>
+
+    <section id="menu" class="bg-white py-16 border-t border-slate-100">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="mb-12">
+                <span class="text-xs font-bold uppercase tracking-widest text-citrusOrange">Crafted Clean Nutrition</span>
+                <h2 class="text-3xl font-black text-slate-900 mt-1">What are you craving?</h2>
+            </div>
+
+            <div class="mb-12">
+                <h3 class="text-xl font-bold text-citrusOrange mb-4 border-b border-slate-100 pb-2">Energizing Loaded Teas</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div class="bg-brandBg p-6 rounded-xl border border-slate-100">
+                        <div class="flex justify-between items-start"><h4 class="font-bold text-slate-900 text-lg">AP Sunrise</h4><span class="text-[10px] bg-orange-100 px-2 py-0.5 rounded text-citrusOrange font-bold">Popular</span></div>
+                        <p class="text-xs text-slate-600 mt-1">Orange, Strawberry, Pineapple, Energy Base</p>
+                        <p class="text-xs text-slate-500 mt-4 font-semibold">24 Calories • 0g Sugar</p>
+                    </div>
+                    <div class="bg-brandBg p-6 rounded-xl border border-slate-100">
+                        <div class="flex justify-between items-start"><h4 class="font-bold text-slate-900 text-lg">Bad & Boujee</h4><span class="text-[10px] bg-pink-100 px-2 py-0.5 rounded text-citrusPink font-bold">Skin Health</span></div>
+                        <p class="text-xs text-slate-600 mt-1">Strawberry, Watermelon, Peach, Piña Colada, Aloe</p>
+                        <p class="text-xs text-slate-500 mt-4 font-semibold">24 Calories • 0g Sugar</p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <h3 class="text-xl font-bold text-citrusPink mb-4 border-b border-slate-100 pb-2">Meal Replacement Shakes</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div class="bg-brandBg p-6 rounded-xl border border-slate-100">
+                        <div class="flex justify-between items-start"><h4 class="font-bold text-slate-900 text-lg">Chocolate PB Protein</h4><span class="text-[10px] bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-bold">Post-Workout</span></div>
+                        <p class="text-xs text-slate-600 mt-1">Peanut Butter, Pure Cocoa, Whey Protein, Banana</p>
+                        <p class="text-xs text-slate-500 mt-4 font-semibold">24g Protein • Low Sugar</p>
+                    </div>
+                    <div class="bg-brandBg p-6 rounded-xl border border-slate-100">
+                        <div class="flex justify-between items-start"><h4 class="font-bold text-slate-900 text-lg">Biscoff Smoothie</h4><span class="text-[10px] bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-bold">Sweet Treat</span></div>
+                        <p class="text-xs text-slate-600 mt-1">Cookie Butter Blend, Oats, Vanilla Protein Base</p>
+                        <p class="text-xs text-slate-500 mt-4 font-semibold">24g Protein • Under 250 Cal</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="visit" class="py-16 border-t border-slate-100 max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div class="space-y-4">
+            <h2 class="text-3xl font-black text-slate-900">Location & Hours</h2>
+            <p class="text-slate-600 text-sm">
+                <strong class="text-slate-900 font-semibold">Address:</strong><br>
+                South Shades Crest Road <br>
+                Hoover, Alabama 35244
+            </p>
+            <div class="text-sm text-slate-600">
+                <strong class="text-slate-900 font-semibold">Hours:</strong>
+                <div class="grid grid-cols-2 gap-y-1 mt-2 max-w-xs text-xs">
+                    <span>Mon - Fri:</span> <span class="text-slate-900 font-medium">7:00 AM - 5:00 PM</span>
+                    <span>Saturday:</span> <span class="text-slate-900 font-medium">9:00 AM - 3:00 PM</span>
+                    <span>Sunday:</span> <span class="text-slate-400">Closed</span>
+                </div>
+            </div>
+        </div>
+        <div class="bg-white border border-slate-100 shadow-sm rounded-2xl p-6 flex flex-col justify-center items-center text-center">
+            <span class="text-3xl mb-2">📍</span>
+            <h4 class="font-bold text-slate-900">South Shades Crest Road Corridor</h4>
+            <p class="text-xs text-slate-500 max-w-xs mt-1">Perfectly situated for easy morning pick-me-ups or quick post-workout refueling runs.</p>
+        </div>
+    </section>
+
+    <footer class="border-t border-slate-100 py-6 text-center text-xs text-slate-400 bg-white">
+        <p>&copy; Sunshine Nutrition Hoover. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
